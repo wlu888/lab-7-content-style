@@ -1,0 +1,115 @@
+/* Specify the font for all the page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Contrast of the main heading and subheadings */
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+footer {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Combinator selector: descendant selector using id and type selectors */
+#experience_form textarea {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Combinator selector: descendant selector using id and attribute selectors */
+#experience_form input[type="text"], #experience_form input[type="email"] {
+    width: 300px;
+} 
+
+/* Sizing & spacing of form elements */
+
+#experience_form input, #experience_form textarea, #experience_form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#experience_form input, #experience_form textarea {
+    padding: 10px;
+}
+
+/* Center content relative to the page */
+.container {
+    max-width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+/* Multicolumn layout for activities */
+
+.activity-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.activity-col {
+    padding: 10px;
+}
+
+/* Specify top and bottom borders */
+main {
+    border-top: 1px solid grey; 
+    border-bottom: 1px solid grey; 
+}
+
+/* Circle-shaped images */
+.activity-col img {
+    border-radius: 50%;
+}
+
+/* Navigation menu */
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+/* unvisited link */
+nav a:link {
+    color: grey;
+}
+
+/* visited link */
+nav a:visited {
+    color: lightGray;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: white;
+}
+
+/* selected link */
+nav a:active {
+    color: white;
+}
